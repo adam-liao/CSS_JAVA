@@ -1,0 +1,35 @@
+ul{
+    background-col…or: rgb(244, 199, 247);
+    /* padding:10px; */
+    padding-left: 0px;
+    /* width:1000px;
+    margin: auto; */
+}
+   
+li{
+    /* background-color: rgb(246, 226, 125); */
+
+    font-size: 1.5em;
+    /* margin: 10px; */
+    list-style: none;
+    /* 控制li 左邊的點點 也可以放在ul來影響這裡,是所謂的繼承*/
+}
+
+li a{
+    background-color: lightblue;
+    display: block;
+    /*底色填*/
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+li a:hover{
+    background-color: rgb(204, 252, 47);
+
+}
+

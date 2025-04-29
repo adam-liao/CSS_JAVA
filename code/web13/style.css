@@ -1,0 +1,8 @@
+@import url(./normalize.css);
+*{
+    padding: 0;
+    margin: 0;
+    /*只做這二個設定*/
+}
+
+

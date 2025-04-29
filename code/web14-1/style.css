@@ -1,0 +1,21 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    background-image: url(./banner.jpg);
+    box-sizing: border-box;
+    /* 不讓 h1超出 box*/
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    padding-left: 810px;
+    padding-top: 190px;
+}
+
+h1{
+    /* background-color: rgba(245, 105, 105, 0.63); */
+
+}

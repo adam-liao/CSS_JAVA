@@ -1,0 +1,33 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    /* 定位 */
+}
+
+h1 {
+    background-color: rgba(255, 0, 0, 0.514);
+    position: absolute;
+    /* 有下position 下方的left跟top才有作用 */
+    left: 840px;
+    top: 100px;
+    /* 定位 */
+}
+
+p{
+    background-color: rgba(0, 128, 0, 0.596);
+    width: 350px;
+    position: absolute;
+    /* 有下position 下方left跟top才有作用 */
+    left: 800px;
+    top: 160px;
+    /* 定位 */
+}
