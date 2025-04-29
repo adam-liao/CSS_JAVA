@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+}
+
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+}
+
+
+
+h1{
+    background-color: rgba(245, 68, 68, 0.719);
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+ul{
+    background-color: rgba(0, 128, 0, 0.637);
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    /* 以後用這個方式的機會會比較高*/
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+
+
+li{
+    float:left;
+    list-style-type: none;
+    
+}
+
+li a{
+
+}
+
+li a:hover{
+
+}
+
+.icon1 a{
+
+}
+
+.icon1_a:hover{
+
+}
