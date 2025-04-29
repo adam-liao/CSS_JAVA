@@ -40,7 +40,8 @@ p{
 }
 
 img{
-	border: #000 20px solid;
+	/* border: #000 20px solid; */
+	float: left;
 }
 
 
