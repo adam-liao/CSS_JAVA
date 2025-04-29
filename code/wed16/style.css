@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+ul{
+	background-color: pink;
+	box-sizing: border-box;
+
+	/* 以後用這個方式的機會會比較高*/
+	overflow: hidden;
+	padding: 10px;
+
+li{
+	list-style-type:none;
+	/* 取消左邊的點點*/
+	float: left;
+}
+
+li a{
+	display: block;
+	width: 200px;
+	height: 60px;
+	background-color:#690;
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+	line-height:60px;
+	margin-right:10px;
+}
+
+li a:hover{
+	background-color:#06C;
+	color:#FF6;	}
+
+p{
+	/* background-color: #d3cbb9; */
+	/* padding: 20px; */
+	margin-bottom: 60px;
+}
+
+img{
+	border: #000 20px solid;
+}
+
+
+/*=== 清除浮動 ===*/
+.PP{}

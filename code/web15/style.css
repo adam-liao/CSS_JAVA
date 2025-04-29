@@ -15,14 +15,22 @@ div {
 
 h1 {
     background-color: rgba(255, 0, 0, 0.514);
-    position: absolute;
+    /* position: absolute; */
     /* 有下position 下方的left跟top才有作用 */
-    left: 840px;
-    top: 100px;
+    /* left: 840px;
+    top: 100px; */
     /* 定位 */
+
+    /* 將h1 固定不動 像是上方功能表*/
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
 }
 
-p{
+div p{
     background-color: rgba(0, 128, 0, 0.596);
     width: 350px;
     position: absolute;
