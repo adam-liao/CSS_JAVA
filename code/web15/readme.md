@@ -12,6 +12,6 @@
 
 (子)position:absolute(絕對位置)
 
-|left/right . top/Bottom
-|
-|Z-index
+left/right . top/Bottom
+
+Z-index
