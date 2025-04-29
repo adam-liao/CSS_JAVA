@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: blue;
+    font-weight: normal;
+}
+
+h2{
+
+}
+
+p{
+    color: rgb(131, 5, 5);
+    background-color: rgb(221, 221, 221);
+    text-align: justify;
+    font-style: italic;
+    line-height: 20px;
+    letter-spacing: 2px;
+}

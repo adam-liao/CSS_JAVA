@@ -1,0 +1,29 @@
+.box{
+    background-image: url(./box.png);
+    width:300px;
+    height:600px;
+    /* 置中 */
+    margin: auto;
+
+}
+
+.box h1{
+
+}
+
+.box a{
+    background-image: url(./btn01.png);
+    /* 比較長用的*/
+    display: block;
+    width:300px;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 70px;
+    /* padding: 70px; */
+}
+
+.box a:hover{
+
+    background-image: url(./btn02.png);
+}
+

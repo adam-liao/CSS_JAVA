@@ -1,0 +1,28 @@
+body{
+
+    background-image: repeating-linear-gradient(to bottom,gray 0px,gray 5px,rgb(212, 211, 211) 5px,rgb(212, 211, 211) 10px
+    );
+}
+a{
+    background-color: #1909ad;
+    color:white;
+    display: block;
+    width: 150px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px; /* 跟box一樣高就是置中*/
+    /* border: thick rgb(0, 255, 13) double; */
+    /* border-left: orange 10px solid;
+    border-right: lawngreen 20px solid; */
+    border-radius:0 0 10px 10px;
+    border-top:rgb(233, 222, 2) 10px solid;
+    box-shadow: gray 5px 5px 0,white 8px 8px,black 12px 12px 0;
+
+    background-image: repeating-linear-gradient(to right,yellow 0px,yellow 5px,blue 5px,blue 10px);
+}
+
+a:hover{
+    background-image: repeating-linear-gradient(to bottom,yellow 0px,yellow 5px,blue 5px,blue 10px);
+    background-color: red;
+}

@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, "微軟正體",sans-serif;
+}
+h1{
+    color:rgb(7, 114, 156)
+}
+body{
+    background-color: bisque;
+}
+
+h1{
+    background-color: aqua;
+    width:800px;
+    height: 84px;
+}
+h2{
+    background-color: chocolate;
+    width:600px;
+    height: 64px;
+}
+p{
+    background-color: lightgreen;
+    width:400px;
+    height:200px;
+}
+a{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 100px;
+    display: block;
+}
+div{
+    background-color: pink;
+    width:300px;
+    height: 80px;
+
+}

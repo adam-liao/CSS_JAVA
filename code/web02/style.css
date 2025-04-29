@@ -1,0 +1,41 @@
+.MMM {
+    background-color: rgb(185, 185, 185);
+    color: red;
+    /* padding 有四種寫法 */
+    padding: 20px;
+}
+
+/* 簡稱 */
+.LLL,
+.RRR {
+    background-color: rgba(185, 185, 185, 0.767);
+    color: darkblue;
+}
+
+.LLL P {
+    color: brown;
+
+}
+
+/* td.RRR{
+    background-color: rgb(247, 201, 0);
+} */
+
+.MMM P {
+
+    color: red;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.man.girl {
+    color: green;
+}
+#DDD{
+    color:red;
+    font-size: larger;
+}
+/* 僅有 LLL 下一層的P */
+.LLL>p {
+    font-style: initial;
+}

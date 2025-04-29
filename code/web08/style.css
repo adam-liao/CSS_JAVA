@@ -1,0 +1,19 @@
+body{
+    background-image: url(./1920x1200.jpg);
+    /* fixed 背景圖固定不上下捲動 */
+    background-attachment: fixed;
+}
+
+.box{
+    width:1200px;
+    margin:auto;
+    background-color: white;
+    /* 依順序顯示,最先者在最上面,底下的參數要跟圖的數量一致 */
+    /* 這棣做的好處是 */
+    /* background-image: url(./bg06.png),url(./bg07.png),url(./bg08.png);
+    background-repeat: repeat-x,no-repeat,no-repeat;
+    background-position: left top,right top,left bottom; */
+    background-image: url(./bg00.jpg);
+    background-repeat: repeat-x;
+    background-position: 150px 20px;
+}
