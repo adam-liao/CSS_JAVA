@@ -42,6 +42,11 @@ img {
     src: url(./Entypo-webfont.ttf);
 }
 
+.box {
+    width: 23%;
+
+}
+
 .box2 {
     background-color: rgba(172, 255, 47, 0.664);
 }
@@ -74,26 +79,36 @@ img {
 .box3 li a {
     display: block;
     background-color: rgba(0, 0, 255, 0.61);
-    width:200px;
-    height:80px;
+    width: 200px;
+    height: 80px;
     margin-bottom: 10px;
     color: white;
     text-decoration: none;
     line-height: 80px;
     text-indent: 35px;
 }
-.box3 li a span{
+
+.box3 li a span {
     font-family: "Entypo";
     font-size: 50px;
     vertical-align: middle;
     margin-right: 10px;
+}
 
-}
-.box3 li a:hover{
-    background-color: rgba(139, 0, 0, 0.705);
-    color:rgba(255, 255, 0, 0.692)
-}
-.box3 li a:hover span{
+.box3 li a:hover span {
     background-color: rgb(255, 0, 0);
-    color:rgb(0, 217, 255)
+    /* color:rgb(0, 217, 255) */
 }
+
+.box3 li a:hover {
+    background-color: rgba(139, 0, 0, 0.705);
+    color: rgba(255, 255, 0, 0.692)
+}
+
+.box4 li {
+    list-style: none;
+}
+/* 
+.box4 li::before {
+    content: "$$";
+} */
