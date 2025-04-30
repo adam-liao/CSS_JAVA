@@ -1,0 +1,31 @@
+h2 {
+
+    fonr: size 100px;
+    text-align: center;
+    font-family: "3DUmd";
+    font-weight: normal;
+
+
+
+}
+
+@font-face {
+    font-family: "3Dumd";
+    src: url(./3Dumb-webfont.ttf);
+}
+
+p {
+
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+@font-face {
+    font-family: "3Dumd";
+    src: url(./);
+}
