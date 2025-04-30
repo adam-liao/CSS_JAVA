@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    padding: 10px 30px 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* background-color: rgba(216, 68, 68, 0.74); */
+    float: left;
+}
+
+h1 img {}
+
+ul {
+    /* background-color: rgba(0, 128, 0, 0.651); */
+    float: right;
+    padding-top: 5px;
+}
+
+li {
+    list-style: none;
+    float:left;
+}
+
+li a {
+    /* background-color: rgba(127, 255, 212, 0.651); */
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+
+}
+
+li a:hover {}
+
+.icon1 a{
+    background-image: url(./icon1_1.png);
+}
+.icon1 a:hover{
+    background-image: url(./icon1_2.png);
+}
+.icon2 a{
+    background-image: url(./icon2_1.png);
+}
+.icon2 a:hover{
+    background-image: url(./icon2_2.png);
+}
+.icon3 a{
+    background-image: url(./icon3_1.png);
+}
+.icon3 a:hover{
+    background-image: url(./icon3_2.png);
+}
+.icon4 a{
+    background-image: url(./icon1_1.png);
+}
+.icon4 a:hover{
+    background-image: url(./icon4_2.png);
+}
+.icon5{
+    background-image: url(./icon5_1.png);
+}
+.icon5:hover{
+    background-image: url(./icon5_2.png);
+}

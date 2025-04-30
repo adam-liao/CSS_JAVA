@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+div {
+    /* background-color: rgba(1, 167, 167, 0.733); */
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    padding:10px 30 px 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+li a {
+    background-color: rgba(171, 255, 60, 0.61);
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
