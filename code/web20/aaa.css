@@ -15,9 +15,12 @@ h2 {
 }
 
 p {
-
+    background-color: rgba(165, 42, 42, 0.568);
     text-align: center;
     font-size: larger;
+    line-height: 50px;
+    margin-bottom: 5px;
+    /* text-align: left; */
 }
 
 img {
@@ -25,7 +28,72 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.box b {
+    background-color: rgba(127, 255, 212, 0.726);
+    font-family: "Entypo";
+    font-size: 50px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
 @font-face {
-    font-family: "3Dumd";
-    src: url(./);
+    font-family: "Entypo";
+    src: url(./Entypo-webfont.ttf);
+}
+
+.box2 {
+    background-color: rgba(172, 255, 47, 0.664);
+}
+
+.box2 ul {}
+
+.box2 li {
+    list-style: none;
+    margin-bottom: 10px
+}
+
+.box2 li i {
+    font-family: "Entypo";
+    font-style: normal;
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.box3 {
+    background-color: rgba(255, 228, 196, 0.733);
+}
+
+.box3 ul {}
+
+.box3 li {
+    list-style: none;
+}
+
+.box3 li a {
+    display: block;
+    background-color: rgba(0, 0, 255, 0.61);
+    width:200px;
+    height:80px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 80px;
+    text-indent: 35px;
+}
+.box3 li a span{
+    font-family: "Entypo";
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+.box3 li a:hover{
+    background-color: rgba(139, 0, 0, 0.705);
+    color:rgba(255, 255, 0, 0.692)
+}
+.box3 li a:hover span{
+    background-color: rgb(255, 0, 0);
+    color:rgb(0, 217, 255)
 }
