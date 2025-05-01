@@ -1,18 +1,44 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-div{
+div {
     background-image: url(./banner.png);
-    width:1000px;
+    width: 1000px;
     height: 150px;
     margin: auto;
     box-sizing: border-box;
     padding: 10px 30px 0;
 }
 
-h1{
+h1 {
     float: left;
+}
+
+ul {
+    float: right;padding-top: 5px;
+}
+
+li {
+    float: left;
+    list-style: none;
+
+}
+li a{
+    /* background-color: rgba(17, 255, 0, 0.706); */
+    display: block;
+    box-sizing: border-box;
+    width:100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.icon1 a{
+    background-image: url(./icon1_1.png);
+}
+.icon1 a:hover{
+    background-image: url(./icon1_2.png);
 }
