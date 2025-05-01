@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body {}
+/* body {} */
 
 div {
     background-image: url(./banner.png);
@@ -19,7 +19,7 @@ h1 {
     float: left;
 }
 
-h1 img {}
+/* h1 img {} */
 
 ul {
     /* background-color: rgba(0, 128, 0, 0.651); */
