@@ -3,48 +3,52 @@
     padding: 0;
 }
 
-body{
+body {
     /* background-image: url(./1.13.jpg); */
 }
 
-div{
+div {
+    background-color: rgba(250, 219, 96, 0.791);
     width: 960px;
     margin: auto;
-    height: 150px;
+    height: 100px;
     padding: 10px 30px 0 30px;
     box-sizing: border-box;
 }
-
-h1{
-    background-color: rgb(222, 250, 96);
-  
+h1 {
+    /* background-color: rgba(165, 42, 42, 0.645); */
+    float: left;
 }
-
-p{
-    
+p{background-color: rgba(194, 248, 32, 0.679);
+    padding: 30px;
+    width: 960px;
+    box-sizing: border-box;
 }
-
-
-.logo {
-
+ul {
+    float: right;
 }
-
-ul {}
 
 li {
     float: left;
     margin-right: 10px;
-    background-color: rgba(48, 164, 241, 0.589);
     list-style: none;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+i{
+    color: red;
+}
+li a {
+    background-color: rgba(48, 164, 241, 0.589);
     display: block;
     width: 100px;
     height: 100px;
-    margin: auto;
-    text-align: center;
-    padding-top: 75px;
+    margin-right: 10px;
+    padding-top: 110px;
     box-sizing: border-box;
 }
 
-/* li a {} */
-
-/* li a:hover{} */
+li a:hover{
+    background-color: rgba(12, 182, 208, 0.824);
+}
