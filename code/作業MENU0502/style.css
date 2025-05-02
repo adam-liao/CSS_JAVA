@@ -8,23 +8,53 @@ bady {
 }
 
 div {
-    width: 1200px;
+    width: 960px;
     margin: auto;
     
+
 }
 
 h1 {
     background-color: rgb(222, 250, 96);
     /* background-image: url(./rogo_footer.png); */
     text-align: center;
-    width: 1000px;
+    width: 960px;
     height: 150px;
-    
-
+    padding:30px 30px 0 30px;
+    box-sizing: border-box;
 }
 
 p {
     background-color: rgba(255, 192, 203, 0.61);
-    width: 900px;
+    width: 960px;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.logo{
+    /* background-color: rgba(0, 128, 0, 0.616); */
+    float: left;
+}
+
+ul{
+   
+}
+li{ 
+    float: left;
+    margin-right: 10px;
+    background-color: rgba(48, 164, 241, 0.589);
+    list-style: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+li a{
+
+}
+li a:hover{
 
 }
