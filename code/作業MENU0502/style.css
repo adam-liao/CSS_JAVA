@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+bady {
+    background-image: url(./1.13.jpg);
+}
+
+div {
+    width: 1200px;
+    margin: auto;
+    
+}
+
+h1 {
+    background-color: rgb(222, 250, 96);
+    /* background-image: url(./rogo_footer.png); */
+    text-align: center;
+    width: 1000px;
+    height: 150px;
+    
+
+}
+
+p {
+    background-color: rgba(255, 192, 203, 0.61);
+    width: 900px;
+
+}
