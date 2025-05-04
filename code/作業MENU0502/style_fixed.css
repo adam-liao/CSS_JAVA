@@ -49,6 +49,7 @@ li a {
     height: 100px;
     padding-top: 100px;
     box-sizing: border-box;
+    text-decoration: none; /*去底線*/
 }
 
 li a:hover {
