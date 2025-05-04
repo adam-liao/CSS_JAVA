@@ -1,4 +1,34 @@
+/* 2025504*/
+*{ 
+    margin: 0;
+    padding:0;
+}
 
+
+div{
+background-image: url(./banner.jpg);
+width: 1200px;
+height: 400px;
+margin: auto;
+/* 開始會改變背景圖為tilting*/
+padding-left: 800px;
+padding-top: 190px;
+/* ^^^ padding 會疊加導致 1200px＋800，height 400px+190*/
+
+
+/* 要用 box-sizing 將div 盒內的物件限致在盒內
+   如果可以就在 margin：auto;下一行就執行box-sizing
+*/
+box-sizing: border-box;
+
+}
+
+h1{
+
+background-color: rgba(0, 255, 255, 0.77);
+width: 300px;
+}
+/* 
 *{
     padding: 0;
     margin: 0;
@@ -18,4 +48,4 @@ div{
 h1{
     /* background-color: rgba(245, 105, 105, 0.63); */
 
-}
+} */
