@@ -1,4 +1,46 @@
-img{
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+ul {
+    background-color: rgba(4, 223, 150, 0.772);
+    box-sizing: border-box;
+    overflow: hidden;
+    padding:10px
+}
 
+li {
+    float:left;
+    list-style: none;
+}
+
+li a {
+    background-color: chartreuse;
+    display:block;
+    width:200px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    margin-right: 10px;
+}
+
+p.PP {
+    /* background-color: rgba(246, 184, 107, 0.747); */
+}
+
+li a:hover{
+    background-color: darkolivegreen;
+    color: yellow;
+}
+
+img{
     float: left;
+    margin: 15px 15px 15px 0;
 }
