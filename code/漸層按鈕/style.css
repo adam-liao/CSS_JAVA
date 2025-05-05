@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+ul {
+    background-color: rgba(127, 255, 212, 0.733);
+    background-image: url("https://picsum.photos/1200/250/?random=10");
+    box-sizing: border-box;
+    width: 1000px;
+    height: 250px;
+    margin: auto;
+    padding: 60px 50px 50px 160px;
+    line-height: 150px;
+
+}
+
+li {
+    background-color: crimson;
+    float: left;
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+.bot1 {
+
+    /* background-color: aqua; */
+    background: linear-gradient(135deg, #b8e1fc 0%, #a9d2f3 10%, #90bae4 25%, #90bcea 37%, #90bff0 50%, #6ba8e5 51%, #a2daf5 83%, #bdf3fd 100%);
+    border-radius: 50%;
+}
+
+.bot1:hover {
+
+    background: linear-gradient(135deg, #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%);
+}
+
+.bot2 {
+    background: linear-gradient(to right, #b4e391 0%, #61c419 50%, #b4e391 100%);
+    border-radius: 20px;
+}
+
+.bot2:hover {
+    background: linear-gradient(to right, #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%);
+    border-radius: 30px;
+}
+
+.bot3 {
+    background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    border-radius: 0 0 20px 20px;
+}
+
+
+.bot3:hover {
+    background: linear-gradient(to bottom, #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%);
+    height: 90px;
+}
+
+.bot4 {
+    background: radial-gradient(ellipse at center, #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%);
+
+    border-radius: 20px 0 20px 0;
+
+}
+
+.bot4:hover {
+    background: radial-gradient(ellipse at center, #f0b7a1 0%, #8c3310 10%, #752201 79%, #bf6e4e 100%);
+    border-radius: 0 30px 0 30px ;
+}
+
+.bot5 {
+    background: linear-gradient(45deg, rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 51%,rgba(255,124,216,1) 100%);
+    /* border-radius: 0 70px 30px 70px; */
+
+    border-radius: 50% 70% 50% 70% / 60% 40% 60% 40%;
+
+}
+
+
+.bot5:hover {
+    background: linear-gradient(45deg, rgba(255,124,216,1) 0%,rgba(253,137,215,1) 49%,rgba(251,166,225,1) 50%,rgba(252,236,252,1) 100%); 
+    color: white;
+
+}
