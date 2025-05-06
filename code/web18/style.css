@@ -25,6 +25,9 @@ body{
 	/* justify-content: space-evenly; */
 	justify-content:space-evenly;
 
+	/* 垂直置中 */
+	align-items: center;
+
 }
 /* flex 指令都下在母盒, 子最多 */
 
@@ -51,12 +54,14 @@ body{
 }
 .box .b2{
 	background-color: rgb(0, 255, 13);
+	align-self: flex-start;
 }
 .box .b3{
 	background-color: rgb(0, 247, 255);
 }
 .box .b4{
 	background-color: rgb(140, 0, 255);
+	align-self: flex-start;
 }
 .box .b5{
 	background-color: rgb(8, 172, 17);
