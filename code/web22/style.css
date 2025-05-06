@@ -1,0 +1,35 @@
+*{}
+
+body{
+    background-color: rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    width: 1200px;
+}
+
+.header{}
+.header h1{}
+.header h1 img{}
+.header ul{}
+.header ul li{}
+.header ul li a{}
+.header ul li a:hover{}
+
+.nav{}
+.nav ul{}
+.nav ul li{}
+.nav ul li a{}
+.nav ul li a:hover{}
+
+.content{}
+.content h4{}
+.content p{}
+.content img{}
+
+.footer{}
+.footer h2{}
+.footer h3{}
