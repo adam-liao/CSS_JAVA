@@ -19,5 +19,60 @@ body{
 .header img{
 	vertical-align:bottom;}
 
+.box{
+	display:flex;
+	flex-wrap:wrap;
+	/* justify-content: space-evenly; */
+	justify-content:space-evenly;
+
+}
+/* flex 指令都下在母盒, 子最多 */
+
+.box>div{
+	/* width:calc(100%/3); */
+	/* width:30%;  */
+	width:30%; 
+	padding:20px;
+	box-sizing: border-box;
+	
+	/*1 padding:20px; 會爆版要接下一行*/
+	/* box-sizing: border-box; */
+	
+	/*2用column一定要設高*/
+	/* flex-direction: column; 
+	height:1200px */
+	/* flex-direction: column; */
+	/* height:1200px */
+	
+}
+
+.box .b1{
+	background-color: orange;
+}
+.box .b2{
+	background-color: rgb(0, 255, 13);
+}
+.box .b3{
+	background-color: rgb(0, 247, 255);
+}
+.box .b4{
+	background-color: rgb(140, 0, 255);
+}
+.box .b5{
+	background-color: rgb(8, 172, 17);
+}
+.box .b6{
+	background-color: rgb(255, 174, 0);
+}
+.box .b7{
+	background-color: orange;
+}
+.box .b8{
+	background-color: rgb(128, 125, 5);
+}
+.box .b9{
+	background-color: rgb(251, 255, 0);
+}
+
 
 
