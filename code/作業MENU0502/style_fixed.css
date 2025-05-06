@@ -4,12 +4,16 @@
 }
 
 /* 外層容器維持原本寬度 */
-div {
+div .title , .doc{
     width: 960px;
     margin: auto;
-    height: 170px;
+    height: 250px;
     box-sizing: border-box;
     background-color: rgba(250, 219, 96, 0.791);
+}
+
+h1{
+    width: 960px;
 }
 
 /* LOGO 的位置設定 */
@@ -21,6 +25,7 @@ h1 a {
     width: 100px;     /* 加上寬度 */
     height: 100px;    /* 加上高度 */
     display: block;   /* a 預設是 inline，要顯示背景需要 block */
+    
 }
 h1 a:hover{
     background-image: url(./icon_2.png);
