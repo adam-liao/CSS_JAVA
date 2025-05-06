@@ -4,7 +4,36 @@
 
 }
 
-div {
+/*再練習1次*/
+div{
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 30px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+
+}
+li a{
+    background-color: aquamarine;
+    width:100px;
+    height: 100px;
+    display: block;
+    margin: 0 5px;
+}
+
+
+/* div {
     background-image: url(./banner.png);
     width: 1000px;
     height: 150px;
@@ -29,7 +58,7 @@ li a{
     width:100px;
     height: 100px;
     margin: 0 5px;
-}
+} */
 
 
 /* body{
