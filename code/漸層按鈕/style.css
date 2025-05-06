@@ -17,6 +17,11 @@ ul {
 
 }
 
+@font-face {
+    font-family: "3Dumd";
+    src: url(./3Dumb-webfont.ttf);
+}
+
 li {
     background-color: crimson;
     float: left;
@@ -27,6 +32,15 @@ li {
     margin-right: 20px;
 
 }
+
+li span {
+    font-family: "Entypo";
+    font-style: normal;
+    font-size: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 
 .bot1 {
 
