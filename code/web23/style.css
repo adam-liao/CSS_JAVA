@@ -1,38 +1,62 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 body {
     background-color: pink;
+    display: flex;
+    justify-content: center;
 }
 
-.container {}
+.container {
+    background-color: aqua;
+    width: 1200px;
+}
 
-.header {}
+.header {
+        background-image: url(./banner.png);
+        height: 250px;
+        position: relative;
+}
 
-.header h1 {}
-.header h1 img{}
+.header h1 {
+        position: absolute;
+            left: 280px;
+            top: 80px;
+}
 
-.header h1 ul li{}
-.header h1 ul li a{}
-.header h1 ul li a:hover{}
+.header h1 img {}
 
-.nav{}
-.nav ul{}
-.nav ul li{}
-.nav ul li a{}
-.nav ul li a:hover{}
+.header h1 ul li {}
 
-.content{}
-.content h4{}
-.content p{}
-.content p img{}
+.header h1 ul li a {}
 
-.footer{}
-.footer h2{}
-.footer h3{}
+.header h1 ul li a:hover {}
 
+.nav {}
 
+.nav ul {}
 
+.nav ul li {}
 
+.nav ul li a {}
+
+.nav ul li a:hover {}
+
+.content {}
+
+.content h4 {}
+
+.content p {}
+
+.content p img {}
+
+.footer {
+    background-color: gray;
+    color: white;
+}
+
+.footer h2 {}
+
+.footer h3 {}
