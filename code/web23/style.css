@@ -15,42 +15,40 @@ body {
 }
 
 
+/* 用 position 做 */
 .header {
     background-image: url(./banner.png);
     height: 250px;
     position: relative;
 }
-
 .header h1 {
     position: absolute;
     left: 280px;
     top: 80px;
 }
-
-/* .header h1 img {} */
-
 .header ul {
     position: absolute;
     right: 80px;
     top: 10px;
 }
-
 .header ul li {
-    background-color: yellow;
+    /* background-color: yellow; */
     list-style: none;
     float: right;
     margin-right: 20px;
     width: 80px;
+    text-align: center;
 }
 
+/* .header h1 img {} */
 .header  ul li a {
-    
+    text-decoration: none;
 }
 
 .header ul li a:hover {}
 
 .Box {
-    background-color: chartreuse;
+    background-color: rgb(167, 247, 87);
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -69,9 +67,9 @@ body {
     height: 50px;
     float: left;
     margin-bottom: 10px;
-    background-color: aqua;
     text-align: center;
     border-radius: 10px 10px 10px 10px;
+    background: linear-gradient(135deg, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
     
 }
 
@@ -82,7 +80,8 @@ body {
 }
 
 .nav ul li a:hover {
-    background-color: yellow;
+    /* background-color: yellow; */
+    background: linear-gradient(135deg, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
     border-radius: 10px 10px 10px 10px;
 }
 
