@@ -29,20 +29,25 @@ body {
 
 /* .header h1 img {} */
 
-.header h1 ul {
-    background-color: yellow;
+.header ul {
     position: absolute;
     right: 80px;
     top: 10px;
 }
 
-.header h1 ul li {
-    /* list-style: none; */
+.header ul li {
+    background-color: yellow;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    width: 80px;
 }
 
-.header h1 ul li a {}
+.header  ul li a {
+    
+}
 
-.header h1 ul li a:hover {}
+.header ul li a:hover {}
 
 .Box {
     background-color: chartreuse;
