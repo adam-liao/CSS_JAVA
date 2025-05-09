@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.timer {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.timer input {
+  margin: 5px;
+  padding: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.time-left {
+  font-size: 1.4em;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  padding: 6px 12px;
+  margin-top: 10px;
+}
