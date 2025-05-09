@@ -1,73 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgba(255, 255, 0, 0.815);
     display: flex;
     justify-content: center;
 }
 
-.container{
+.container {
     background-color: white;
     width: 1200px;
 
 }
 
-.header{
+.header {
     background-image: url(./banner.png);
     height: 250px;
     position: relative;
 }
-.header h1{
-    position:absolute;
+
+.header h1 {
+    position: absolute;
     left: 280px;
-    top:80px;
+    top: 80px;
 }
-.header h1 img{}
-.header ul{
+
+.header h1 img {}
+
+.header ul {
     position: absolute;
     right: 20px;
     top: 10px;
 }
-.header ul li{
+
+.header ul li {
     list-style: none;
     float: right;
 }
-.header ul li a{
+
+.header ul li a {
     margin-right: 10px;
 }
-.header ul li a:hover{}
 
-.nav{
+.header ul li a:hover {}
+
+.nav {
     background-color: rgba(100, 199, 249, 0.735);
 }
-.nav ul{
+
+.nav ul {
     background-color: rgba(177, 12, 12, 0.72);
     display: flex;
     height: 100px;
     justify-content: space-evenly;
-/* justify-items: ; */
+    /* justify-items: ; */
     padding: 0 120px;
     align-items: center;
 }
-.nav ul li{
+
+.nav ul li {
     list-style: none;
 }
-.nav ul li a{
+
+.nav ul li a {
     display: block;
     width: 160px;
     height: 50px;
     background-color: aqua;
 }
-.nav ul li a:hover{}
 
-.content{}
-.content h4{}
-.content p{}
-.content img{}
+.nav ul li a:hover {}
 
-.footer{}
-.footer h2{}
-.footer h3{}
+.content {}
+
+.content h4 {}
+
+.content p {}
+
+.content img {}
+
+.footer {
+    /* background-color: blue; */
+    background-color: brown;
+    color: white;
+    /* 有四種作法要練習 */
+    /* display: flex;
+    justify-content: space-between;
+    padding-inline: 20px; */
+
+    /* 第一種方式  */
+    /* text-align: center;
+    padding: 30px; */
+
+    /* 第二種方式 float*/
+    box-sizing: border-box;
+    padding: 20px 40px 20px 20px;
+
+    /* 第三種方式 position*/
+    height: 60px;
+    position: relative;
+
+    /* 第四種方式  flex*/
+    /* display: flex;
+    justify-content: space-between;
+    padding-inline: 20px; */
+}
+
+.footer h2 {
+    /*  第三種方式 */
+    /* position:absolute;
+    left: 100px;
+    top:20px; */
+
+    /* 第二種方式 float*/
+    float: left;
+    overflow: hidden;
+}
+
+.footer h3 {
+    /*  第三種方式 */
+    /* position:absolute;
+    right: 40px;
+    top:30px; */
+
+    /* 第二種方式 float*/
+    float: right;
+
+}
