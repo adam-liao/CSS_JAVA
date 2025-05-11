@@ -124,84 +124,85 @@ body {}
 }
 
 .box1_to_4 {
-background-color: yellow;  
-height: 250px;
+    background-color: yellow;
+    height: 280px;
+    display: flex;
+    /* 做水平及垂直置中*/
+    justify-content: center;
+    align-items: center;
 
 }
 
-.box1_to_4 ul{
+.box1_to_4 ul {
     color: white;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
 }
-.box1_to_4 ul li{
-    float: left;
+
+.box1_to_4 ul li {
+    width: 200px;
+    height: 200px;
     color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 50px;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    /* justify-self: center; */
+}
+
+.box_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+
 }
 
 #boxa {
-        padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
     background-color: #fd672a;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    font-size: 50px;
 }
-#boxa a{
-        color:white;
+
+#boxa a {
+    color: white;
     text-decoration: none;
 }
-#boxa a:hover{
 
-}
+#boxa a:hover {}
 
 #boxb {
-    padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
     background-color: #f1311a;
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    font-size: 50px;
 }
-#boxb a{
-    color:white;
-    text-decoration: none;
 
+#boxb a {
+    color: white;
+    text-decoration: none;
+    
 }
 
 
 #boxc {
-            padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
     background-color: #2a2d34;
-    width: 200px;
-    height: 200px;
-        box-sizing: border-box;
-    font-size: 50px;
 }
-#boxc a{
-    color:white;
-    text-decoration: none;
 
+#boxc a {
+    text-decoration: none;
+    color: white;
 }
 
 #boxd {
-            padding-left: 30px;
-    padding-top: 30px;
-    list-style: none;
     background-color: #555c66;
-    width: 200px;
-    height: 200px;
-        box-sizing: border-box;
-    font-size: 50px;
 }
-#boxd a{
-    color:white;
-    text-decoration: none;
 
+#boxd a {
+    text-decoration: none;
+    color: white;
 }
 
 .box_3X2 {
