@@ -68,7 +68,7 @@ body {}
     color: white;
     font-size: 72px;
     width: 500px;
-    line-height:72px ;
+    line-height: 72px;
 
 }
 
@@ -79,25 +79,28 @@ body {}
     width: 500px;
     color: white;
 }
-.We_are .submit{
-}
+
+.We_are .submit {}
+
 .We_are .submit ul {
     position: absolute;
     top: 320px;
     left: 80px;
     list-style: none;
 }
-#w1{
+
+#w1 {
     width: 350px;
     height: 50px;
     background-color: white;
     color: gray;
-    width:250px;
+    width: 250px;
     height: 30px;
     text-align: center;
     line-height: 30px;
 }
-.We_are .submit ul li{
+
+.We_are .submit ul li {
     float: left;
     width: 350px;
     height: 30px;
@@ -105,45 +108,133 @@ body {}
     background-color: black;
     text-align: center;
     color: white;
-    width:80px;
+    width: 80px;
 }
 
-#w1 a{
-/* .We_are .submit ul li a{ */
-text-decoration: none;
-color: black;
+#w1 a {
+    /* .We_are .submit ul li a{ */
+    text-decoration: none;
+    color: black;
 }
-#b1 a{
-/* .We_are .submit ul li a:hover{ */
-color: rgb(222, 221, 221);
-text-decoration: none;
+
+#b1 a {
+    /* .We_are .submit ul li a:hover{ */
+    color: rgb(222, 221, 221);
+    text-decoration: none;
+}
+
+.box1_to_4 {
+background-color: yellow;  
+height: 250px;
+
+}
+
+.box1_to_4 ul{
+    color: white;
+}
+.box1_to_4 ul li{
+    float: left;
+    color: white;
+}
+
+#boxa {
+        padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    background-color: #fd672a;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+#boxa a{
+        color:white;
+    text-decoration: none;
+}
+#boxa a:hover{
+
+}
+
+#boxb {
+    padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    background-color: #f1311a;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+#boxb a{
+    color:white;
+    text-decoration: none;
+
+}
+
+
+#boxc {
+            padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    background-color: #2a2d34;
+    width: 200px;
+    height: 200px;
+        box-sizing: border-box;
+    font-size: 50px;
+}
+#boxc a{
+    color:white;
+    text-decoration: none;
+
+}
+
+#boxd {
+            padding-left: 30px;
+    padding-top: 30px;
+    list-style: none;
+    background-color: #555c66;
+    width: 200px;
+    height: 200px;
+        box-sizing: border-box;
+    font-size: 50px;
+}
+#boxd a{
+    color:white;
+    text-decoration: none;
+
 }
 
 .box_3X2 {
     margin-top: 20px;
     display: flex;
 }
-#box1{
+
+#box1 {
     background-color: #fd672a;
     width: 250px;
 }
-#box2{
+
+#box2 {
     background-color: #f1311a;
     width: 250px;
 }
-#box3{
+
+#box3 {
     background-color: #2a2d34;
     width: 250px;
 }
-#box4{
+
+#box4 {
     background-color: #fd672a;
     width: 250px;
 }
-#box5{
+
+#box5 {
     background-color: #fd672a;
     width: 250px;
 }
-#box6{
+
+#box6 {
     background-color: #fd672a;
     width: 250px;
 }
