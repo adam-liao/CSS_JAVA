@@ -1,0 +1,57 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    background-image: url(../../share/bg.gif);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    background-color: white;
+    width:1200px;
+
+}
+
+.header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.header ul{}
+.header li{
+    list-style: none;
+    float: left;
+}
+.header li a{}
+.header a{margin: 5px;}
+.header a:hover{}
+
+.banner{}
+.banner img{
+    vertical-align: bottom;
+}
+.nav{
+    background-color: rgba(76, 159, 197, 0.774);
+    width: 200px;
+}
+.nav ul{}
+.nav li{}
+.nav li a{}
+.nav li a:hover{}
+
+.content{
+    width: 1000px;
+    height: 100px;
+    background-color: pink;
+}
+.foot{
+    background-color: gray;
+}
+
