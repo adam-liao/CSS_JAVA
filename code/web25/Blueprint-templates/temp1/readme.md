@@ -33,8 +33,9 @@ body{
 ```
 
 
-# 這是很細的地方, 如果是用插入圖片會有4px的空白
-## 是base line 只要改成 Bottom 白線就會消失
+# 這是很細的地方, 如果是用插入圖片(HTML中)會有4px的空白
+## 是baseline 預設的結果因為base line到botton有4px的空間,只要改成 Bottom 白線就會消失
+
 
 .banner img{
     vertical-align: bottom;
