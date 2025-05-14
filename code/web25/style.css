@@ -66,6 +66,16 @@ body{
     height: 600px;
     background-color: pink;
 }
+
+.content h4 {
+    background-color: #be7515;
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    border-left: #582406 10px solid;
+    margin-bottom: 20px;
+}
 .foot{
     background-color: gray;
 }
