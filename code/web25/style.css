@@ -7,13 +7,11 @@ body{
     background-image: url(./share/bg.gif);
     display: flex;
     justify-content: center;
-
 }
 
 .container{
     background-color: white;
     width:1200px;
-
 }
 
 .header{
@@ -63,19 +61,11 @@ body{
     width: 1000px;
     padding: 20px;
     box-sizing: border-box;
-    height: 600px;
+    /* height: 600px; */
     background-color: pink;
 }
 
-.content h4 {
-    background-color: #be7515;
-    width: 600px;
-    height: 30px;
-    line-height: 30px;
-    text-indent: 10px;
-    border-left: #582406 10px solid;
-    margin-bottom: 20px;
-}
+
 .foot{
     background-color: gray;
 }
@@ -90,7 +80,18 @@ width: 600px;
 height: 40px;
 line-height: 40px;
 text-indent: 20px;
+margin-bottom: 30px;
 
+}
+
+.content h4 {
+    background-color: #be7515;
+    width: 600px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    border-left: #582406 10px solid;
+    margin-bottom: 20px;
 }
 .foot{
     padding:20px;
