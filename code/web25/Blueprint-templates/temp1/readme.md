@@ -40,3 +40,29 @@ body{
 .banner img{
     vertical-align: bottom;
 }
+
+
+# 偽類別
+
+對小孩
+
+:frist-child
+
+:last-child
+
+:nth-child(n)
+
+=number or 2n or 3n n是倍數
+
+# 對同樣的類別
+
+:frist-of-type
+
+:last-of-type
+
+
+:nth-of-type()
+
+# 文字的平移位置簡單的方法
+
+text-indent: 20px;

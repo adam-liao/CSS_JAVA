@@ -37,21 +37,50 @@ body{
 .banner img{
     vertical-align: bottom;
 }
+.box{
+    display: flex;
+}
 .nav{
     background-color: rgba(76, 159, 197, 0.774);
     width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
 }
-.nav ul{}
+.nav ul{ list-style: none;}
 .nav li{}
-.nav li a{}
+.nav li a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    color:white;
+    text-decoration: none;
+    border-bottom:#fff 1px dashed;
+    text-align: center;
+}
 .nav li a:hover{}
 
 .content{
     width: 1000px;
-    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 600px;
     background-color: pink;
 }
 .foot{
     background-color: gray;
 }
+.nav li:last-of-type a{
+    border-bottom:none;
+
+}
+
+.content h3{
+background-image: url(../../share/title_bg.png);
+width: 600px;
+height: 40px;
+line-height: 40px;
+text-indent: 20px;
+
+}
+
 
