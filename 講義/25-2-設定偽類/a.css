@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin:0 0 8px 0;
+}
+body{
+    padding:20px
+}
+.box1{
+    background-color: #fbf29d;
+    padding: 20px;
+}
+.box2 {
+    background-color: #5cd3a4;
+    padding: 20px;
+}
+
+/* h1:first-child{
+    color:red
+} */
+
+
+/* .box1 h1:first-child{
+    color: red;
+} */
+
+/* .box1 h2:nth-child(3){
+    color: red;
+} */
+
+/* h2:first-of-type{
+    color: red;
+} */
+
+/* .box2 p:nth-child(4){
+    color: red;
+} */
+
+
+p:last-child{
+    color: red;
+}

@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica,"微軟正黑體", sans-serif;
+}
+table{
+    margin: auto;
+}
+
+tr{
+    background-color: #ccc;
+    height: 36px;
+}
+
+tr:first-child{
+    background-color: #2865b5;
+    color: #FFF;
+    height: 60px;
+    text-align: center;
+}
+
+tr:nth-child(2n){
+    background-color: #999;
+}
