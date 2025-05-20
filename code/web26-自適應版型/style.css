@@ -62,28 +62,65 @@ body {
 
 .office .ofbox p {}
 
-.ad {}
+.ad {background-color: #b6e1c1;
+    display: flex;;}
 
-.adbox {}
+.adbox {
+    background-color: #5a9274;
+    width:25%;
+}
 
-.ad img {}
+.ad img {background-color: #446f58;;}
 
-.nav {}
+.nav {
+    background-color: #e5e5e5;
+    display:flex;
+    justify-content: center;
+}
 
-.nav .navbox {}
+.nav .navbox {
+    background-color: #9b9b9b;
+    width:16%;
+    margin:1%;
+    padding:20px;
+}
 
-.nav .navbox p {}
+.nav .navbox p {
+    margin-bottom: 10px;
+}
 
 .nav .navbox ul {}
 
-.nav .navbox li {}
+.nav .navbox li {
+    list-style: none;;
+}
 
-.nav .navbox li a {}
+.nav .navbox li a {
+    line-height: 30px;
+}
 
 .nav .navbox li a:hover {}
 
-.footer {}
+.footer {
+    background-color: #1b1b1b;
+    color:#e5e5e5;
+    text-align: center;
+    padding: 30px;
+}
 
 .footer h2 {}
 
 .footer p {}
+
+
+/* ====平板CSS===== */
+
+@media screen and(max-width:1200px) and (min-width:768px) {
+}
+
+
+
+/* ====手機CSS===== */
+@media screen and(max-width:768px) {
+}   
+
