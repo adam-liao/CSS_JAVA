@@ -1,20 +1,22 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
     font-size: 18px;
-    font-family: Arial, Helvetica, "微軟五正黑體", sans-serif;
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
 }
 
 .header {
-    background-color: lightgray;
+    background-color: #c6c6c6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+
 }
 
 .header h1 {}
@@ -27,7 +29,7 @@ body {
 }
 
 .header li a {
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .header li a:hover {}
@@ -45,6 +47,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 40px 0;
+
 }
 
 .office .ofbox {
@@ -57,25 +60,26 @@ body {
 
 .office .ofbox img {
     max-width: 100%;
+    /*  圖片最大原始大，但可縮小  */
     height: auto;
 }
 
 .office .ofbox p {}
 
 .ad {
-    background-color: #b6e1c1;
+    background-color: #b6e1ca;
     display: flex;
-    ;
 }
 
 .adbox {
-    background-color: #5a9274;
+    background-color: #446f58;
     width: 25%;
 }
 
 .ad img {
-    background-color: #446f58;
-    ;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
 }
 
 .nav {
@@ -99,7 +103,6 @@ body {
 
 .nav .navbox li {
     list-style: none;
-    ;
 }
 
 .nav .navbox li a {
@@ -130,15 +133,14 @@ body {
 
     .office .ofbox {
         width: 44%;
-
     }
+
     .ad {
         flex-wrap: wrap;
     }
 
     .adbox {
         width: 50%;
-
     }
 
     .nav {
@@ -146,32 +148,41 @@ body {
     }
 
     .nav .navbox {
-        width: 32%
+        width: 32%;
     }
+
 }
 
-I
+
+
 /* ====手機CSS===== */
-
 @media screen and (max-width:768px) {
-
     .office {
         flex-wrap: wrap;
     }
+
     .office .ofbox {
         width: 88%;
     }
+
     .ad {
         flex-wrap: wrap;
     }
+
     .adbox {
         width: 100%;
     }
+
     .nav {
         flex-wrap: wrap;
-
     }
+
     .nav .navbox {
         width: 64%;
     }
+
+
+
+
+
 }
