@@ -244,26 +244,30 @@ body {}
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 650px;
+        
     
 }
 
-.box_3X2 {
+.box_3X2 oo{
     /* margin-top: 20px; */
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
-    height: 600px;/
+    /* height: 400px; */
+
+    flex-wrap: wrap;
 }
 .box_3X2 {
-    margin-top: 20px;
+    background-color: aliceblue;
+    /* margin-top: 20px; */
     display: flex;
     flex-wrap: wrap;
     /* 允許自動換行 */
     width: 780px;
     /* 3 個 box 寬度 + 間距（250px * 3 + 10px * 2）*/
-    gap: 10px;
+    /* gap: 10px; */
     /* box 之間的間距，可依需求調整 */
 }
 
@@ -301,7 +305,7 @@ body {}
 }
 
 #box4 {
-    background-color: #eeeeee;
+    background-color: #eeeeeeb9;
     width: 250px;
     height: 250px;
 }
@@ -316,13 +320,13 @@ body {}
 #box6 {
     background-color: #ebebeb;
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 .About_tree{
 background-image: url(./images/handbg.jpg);
 width: 1200px;
-height: 600px;
+height: 400px;
 
 }
 .About_tree ul {
