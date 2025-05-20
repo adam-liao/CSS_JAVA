@@ -29,5 +29,6 @@ li a{
 
 li a:hover{
     background-color: #ecac33;
-    transform: translate(-5px,-5px);
+    transform: translate(-5px,-5px) rotate(20deg);
+    box-shadow: 3px 3px 5px gray;
 }
