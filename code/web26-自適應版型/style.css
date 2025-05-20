@@ -1,36 +1,89 @@
-*{}
-html,body{}
-.header{}
-.header h1{}
-.header ul{}
-.header li{}
-.header li a{}
-.header li a:hover{}
+* {
+    padding: 0;
+    margin: 0;
+}
 
-.banner{}
-.banner img{}
+html,
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, "微軟五正黑體", sans-serif;
+}
 
-.office{}
-.office .ofbox{}
-.office .ofbox img{}
-.office .ofbox p{}
+.header {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
 
-.ad{}
-.adbox{}
-.ad img{}
+.header h1 {}
 
-.nav{}
-.nav .navbox{}
-.nav .navbox p{}
-.nav .navbox ul{}
-.nav .navbox li{}
-.nav .navbox li a{}
-.nav .navbox li a:hover{}
+.header ul {}
 
-.footer{}
-.footer h2{}
-.footer p{}
+.header li {
+    list-style: none;
+    float: left;
+}
 
+.header li a {
+    margin-right: 10px
+}
 
+.header li a:hover {}
 
+.banner {}
 
+.banner img {
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+.office {
+    background-color: #6c6c6c;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.office .ofbox {
+    background-color: #dcdcdc;
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+    padding:20px;
+}
+
+.office .ofbox img {
+    max-width:100%;
+    height:auto;
+}
+
+.office .ofbox p {}
+
+.ad {}
+
+.adbox {}
+
+.ad img {}
+
+.nav {}
+
+.nav .navbox {}
+
+.nav .navbox p {}
+
+.nav .navbox ul {}
+
+.nav .navbox li {}
+
+.nav .navbox li a {}
+
+.nav .navbox li a:hover {}
+
+.footer {}
+
+.footer h2 {}
+
+.footer p {}
