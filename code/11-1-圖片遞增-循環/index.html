@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<>
+    <h1>資料類型：數字／Number</h1>
+    <p><img id="cake" src="./img/photo1.jpg" alt=""></p>
+    
+    <script src="./my.js"></script>
+    <h1 id="tt"></h1>
+    <script>
+   let N=parseInt(prompt("輸入提款"))
+        if(N<1000){
+            document.getElementById("tt").innerHTML="金額不足"
+        }else if(N>=1000 && N<30000){
+            document.getElementById("tt").innerHTML="正常"
+        }else{
+        document.getElementById("tt").innerHTML="已達上限"
+        }
+
+    </script>
+</body>
+
+</html>

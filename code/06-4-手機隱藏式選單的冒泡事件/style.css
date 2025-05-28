@@ -45,7 +45,7 @@ body {
     box-shadow: 1px 1px 3px 2px #595959;
 
     /* === 將選單隱藏 === */
-    /* display: none; */
+    display: none;
 
 }
 
