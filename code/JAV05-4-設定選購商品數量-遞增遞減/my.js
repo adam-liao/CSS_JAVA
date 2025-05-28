@@ -8,7 +8,7 @@ document.getElementById('add').onclick = bbb
 // Num.innerHTML = N
 
 function aaa() {
-    N = N1 - 1
+    N = N - 1
     document.getElementById('num').innerHTML = N
 }
 function bbb() {
