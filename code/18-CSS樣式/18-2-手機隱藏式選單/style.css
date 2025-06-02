@@ -43,6 +43,7 @@ body {
     list-style: none;
     border-radius: 8px;
     box-shadow: 1px 1px 3px 2px #595959;
+    display: none;
 
 }
 
